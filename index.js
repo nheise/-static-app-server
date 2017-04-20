@@ -1,7 +1,7 @@
 var express = require( 'express' );
 var app = express();
 
-function Server( config ) {
+function server( config ) {
   const port = config.port || 8080;
   const filePath = config.path || 'dist';
   const defaultFile = config.defaultFile || "index.html";
@@ -26,4 +26,4 @@ function Server( config ) {
   return server;
 }
 
-module.exports = Server;
+module.exports = { createServer: server };
