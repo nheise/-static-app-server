@@ -21,8 +21,8 @@ var server = require("static-app-server")( options );
 
 Creates a Nodejs http.Server Object with the given options.
 
-| Option  |  Description   |  Type   |  Default |
-|---------:|--------:|--------:|--------:|
+| Option | Description | Type | Default |
+|:-|--------:|--------:|--------:|
 | port | Port the server listen to  | int | 8080 |
 | path | Path to the static files to serve | String | dist |
 | defaultFile | Default html response. Must be in path. | String | index.html |
