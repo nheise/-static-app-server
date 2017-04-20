@@ -1,10 +1,11 @@
 var express = require( 'express' );
 var app = express();
 
-function server( config ) {
+function server( options ) {
+  const config = options || {};
   const port = config.port || 8080;
   const filePath = config.path || 'dist';
-  const defaultFile = config.defaultFile || "index.html";
+  const defaultFile = config.defaultFile || "/index.html";
   const defaultFileOptions = { root: filePath };
   
   console.log( "serve files from: " + filePath );

@@ -9,8 +9,8 @@ Other file types respond 404, if the file is not present.
 ## Usage
 
 ```javascript
-var  options = { port: 8080, path: 'tests/dist/' };
-var server = require("static-app-server")( options );
+var options = { port: 8080, path: 'tests/dist/' };
+var server = require("static-app-server")( [ options ] );
 ```
 
 ---
@@ -25,4 +25,4 @@ Creates a Nodejs http.Server Object with the given options.
 |:-|:-|:-:|:-:|
 | port | Port the server listen to  | int | 8080 |
 | path | Path to the static files to serve | String | dist |
-| defaultFile | Default html response. Must be in path. | String | index.html |
+| defaultFile | Default html response. Must be in path. | String | /index.html |
