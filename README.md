@@ -1,5 +1,4 @@
 # static-app-server
----
 
 [Usage](#usage) | [API](#api)
 
