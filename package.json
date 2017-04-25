@@ -1,6 +1,6 @@
 {
   "name": "static-app-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Serve static files via nodejs express. HTML requests will always return index.html. Other types respond 404, if the file is not present.",
   "main": "server.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "static",
     "files"
   ],
-  "author": "nheise",
+  "author": "Niklas Heise <n.heise@heise-media.de>",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.17.1",
@@ -24,7 +24,5 @@
   "devDependencies": {
     "ospec": "^1.2.3"
   },
-  "author": "Niklas Heise <n.heise@heise-media.de>",
-  "license": "MIT",
   "repository": "nheise/static-app-server"
 }
