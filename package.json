@@ -24,5 +24,7 @@
   "devDependencies": {
     "ospec": "^1.2.3"
   },
-  "repository": {}
+  "author": "Niklas Heise <n.heise@heise-media.de>",
+  "license": "MIT",
+  "repository": "nheise/static-app-server"
 }
