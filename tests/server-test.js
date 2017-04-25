@@ -2,7 +2,7 @@ var o = require("ospec");
 var http = require("http");
 
 const PORT = 8081;
-var server = require("../index.js").createServer( { port: PORT, path: 'tests/dist' } );
+var server = require("../server.js").createServer( { port: PORT, path: 'tests/dist' } );
 
 o.spec("static-app-server", function() {
   

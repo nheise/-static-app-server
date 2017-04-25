@@ -2,7 +2,7 @@
   "name": "static-app-server",
   "version": "0.1.0",
   "description": "Serve static files via nodejs express. HTML requests will always return index.html. Other types respond 404, if the file is not present.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node index.js",
     "test": "ospec"
